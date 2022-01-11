@@ -1,0 +1,15 @@
+.cover {
+  max-width: 1184px;
+  max-height: 740px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(2, fit-content);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    margin: 0;
+  }
+}

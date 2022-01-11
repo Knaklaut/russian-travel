@@ -1,112 +1,38 @@
-@font-face {
-  src: url('../vendor/fonts/Inter-Regular.woff') format('woff'),
-  url('../vendor/fonts/Inter-Regular.woff2') format('woff2');
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: normal;
-}
-
-.page {
-    width: 100%;
-    margin: 0;
-    background-color: #2a2c2f;
-    font-family: 'Inter';
-    color: #fff;
-}
-
-.header {
-    max-width: 1184px;
-    max-height: 52px;
-    margin: 28px auto 56px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid red;
-}
-
-.header__logo {
-    width: 176px;
-    height: 52px;
-    border: 1px solid red;
-}
-
-.header__lang {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid red;
-}
-
-.header__lang-link {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-    text-decoration: none;
-    border: 1px solid red;
-}
-
-.header__lang-link:last-of-type {
-    margin-left: 18px;
-}
-
-.header__lang-link:hover {
-    text-decoration: underline;
-}
-
-.lead {
-  max-width: 984px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid red;
-}
-
-.lead-title {
-  font-size: 96px;
-  font-weight: 900;
-  line-height: 100px;
-  text-align: center;
-  max-width: 720px;
-  margin: 0 auto;
-  border: 1px solid red;
-}
-
-.lead__subtitle {
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: center;
-  max-width: 640px;
-  margin: 32px auto 64px;
-  border: 1px solid red;
-}
-
-.lead__image {
-  width: 984px;
-  height: 615px;
-  margin: 0 auto;
-  border: 1px solid red;
-}
-
-.lead__caption {
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  margin-top: 8px;
-  align-self: flex-start;
-  border: 1px solid red;
-}
-
-.intro {
-  max-width: 690px;
-  margin: 0 auto;
-  position: relative;
-  top: 92px;
-  left: 148px;
-  border: 1px solid red;
-}
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
