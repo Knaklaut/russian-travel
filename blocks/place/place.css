@@ -20,6 +20,7 @@
   .place {
     grid-template-columns: 44.3% fit-content(45.8%);
     gap: 48px 28px;
+    margin-bottom: 73px;
   }
 }
 
@@ -32,5 +33,6 @@
     "website"
     "image"
     "paragraphs";
+    margin-bottom: 50px;
   }
 }
